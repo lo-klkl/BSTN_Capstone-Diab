@@ -7,7 +7,7 @@ I aim to leverage machine learning models to evaluate the likelihood of hospital
 
 #### Information about Data: 
 - [Data Dictionary](Docs/Data_Dictionary_for_Capstone-Final.pdf): This contains the data dictionary for the final clean data set that was used for analysis.
-- [Categorizing Numeric columns guide](Docs/categorizing_col_guide): This contains the guide used to convert numerical to categorical columns to provide context.
+- [Categorizing Numeric columns guide](Docs/categorizing_col_guide.md): This contains the guide used to convert numerical to categorical columns to provide context.
 - [EDA results](Docs/EDA_Results.md): This contains the results from the EDA done on the data. Mostly looking into distribution and the general effect on the outcome.
 
 #### Creating the environment 
