@@ -1,4 +1,4 @@
-# EDA Results 
+EDA Results 
 ---
 #### Table of contents
 - [Demographic](#demo)
