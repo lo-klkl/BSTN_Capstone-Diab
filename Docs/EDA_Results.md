@@ -9,6 +9,7 @@ EDA Results
 - [Prior Medical History](#pmh)
 - [Medication Categories and Admission Rates Analysis](#meds)
 - [Glucose Level History and Admission Rates](#glu)
+- [Conclusion](#conc)
 ---
 
 ### <a id = 'demo'></a> Demographic
@@ -84,6 +85,8 @@ EDA Results
 
 - For `demo_gender`, the chi-square value (149.39) is lower, but the p-value (2.36e-34) is still well below the significance threshold of 0.05. This suggests a significant association between gender and admission rates, though the association is relatively weaker compared to other demographic factors.
 
+---
+
 ### <a id = 'tcat'></a> Triage Categorical
 
 #### Triage Category - ESI:
@@ -112,7 +115,9 @@ EDA Results
 - For `triage_cat_esi`, the high chi-square value (21254.59) and low p-value (0.000) suggest a strong association.
 - For `triage_cat_arrivalmonth`, the chi-square value (20.16) is lower, but the p-value (0.043) is still below the significance threshold of 0.05, indicating a significant association.
 
-### <a id = 'num'></a> Triage Numerical
+---
+
+### <a id = 'tnum'></a> Triage Numerical
 
 #### Triage Vital Sign - Heart Rate:
 - **Highest Population Occurrence:** Normal Heart Rate (85.92%)
@@ -174,6 +179,8 @@ EDA Results
 - For `triage_vital_sbp`, the high chi-square value (1630.35) and low p-value (0.00) suggest a strong association.
 - For `triage_vital_temp`, the chi-square value (473.45) is higher, and the p-value (1.56e-103) is much below the significance threshold of 0.05
 
+---
+
 ### <a id = 'huse'></a> Patient History and Utilization:
 - **Previous Disposition:**
   - **Highest Population Occurrence:** Discharge (42.82%)
@@ -224,6 +231,8 @@ EDA Results
 - For `huse_n_admissions`, the high chi-square value (3709.72) and low p-value (0.00) suggest a strong association.
 - For `huse_n_surgeries`, the chi-square value (609.88) is higher, and the p-value (7.27e-132) is much below the significance threshold of 0.05.
 - For `huse_n_edvisits`, the chi-square value (524.73) is higher, and the p-value (2.09e-113) is much below the significance threshold of 0.05.
+
+---
 
 ### <a id = 'cc'></a> Chief Complaint
 
@@ -302,6 +311,8 @@ EDA Results
 #### Interpretation:
 - Conditions like abdominal pain, chest pain, and shortness of breath are highly prevalent in the dataset.
 - Medical conditions associated with higher Phi coefficients indicate a stronger association with the dataset, and the p-values confirm the statistical significance of these associations.
+
+---
 
 ### <a id = 'pmh'></a> Prior Medical History
 
@@ -405,6 +416,8 @@ EDA Results
 - For `meds_anti-obesitydrugs`, the chi-square value (3.35) is higher, and the p-value (0.07) is slightly above the significance threshold of 0.05.
 - For `meds_hormones`, the high chi-square value (4514.10) and low p-value (0.00) suggest a strong association.
 
+---
+
 ### <a id = 'glu'></a> Glucose Level History and Admission Rates:
 #### `hist_glucose_median`:
   - **Percentage Distribution:**
@@ -421,3 +434,8 @@ EDA Results
 #### Interpretation of Chi-Square Test: 
 - For `hist_glucose_median`, the chi-square value (31.41) is higher, and the p-value (1.51e-07) is much below the significance threshold of 0.05.
 
+---
+### <a id = 'conc'></a> Conclusion:
+
+- In general, it seems as though all of the different super columns are significantly related to the target variable (hospital admission) for diabetic patients. There doesn't seem to be huge apparent disparities when it comes to overall demographic data. 
+---
