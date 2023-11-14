@@ -8,7 +8,7 @@ I aim to leverage machine learning models to evaluate the likelihood of hospital
 #### Information about Data: 
 - [Data Dictionary](Docs/Data_Dictionary_for_Capstone-Final.pdf): This contains the data dictionary for the final clean data set that was used for analysis.
 - [Categorizing Numeric columns guide](Docs/categorizing_col_guide): This contains the guide used to convert numerical to categorical columns to provide context.
-- [Prelim EDA results](Docs/PrelimEDA_Results.md): This contains the resutls from the preliminary EDA done on the data. Mostly looking into distribution and geneneral effect on outcome.
+- [EDA results](Docs/EDA_Results.md): This contains the results from the EDA done on the data. Mostly looking into distribution and the general effect on the outcome.
 
 #### Creating the environment 
 - Follow the guide in the requirements [here](Docs/requirements.txt)
@@ -44,7 +44,7 @@ I aim to leverage machine learning models to evaluate the likelihood of hospital
 - Cleaning the data (see clean notebook for more details) 
 - Changing numerical columns to categorical columns to make interpretation and EDA easier and also setting up for dummying these columns down the road. 
 - Prelim EDA, understanding the data in the columns, how columns relate to the target, and their significance in relation to the target. 
-        See Prelim EDA results [here](Docs/PrelimEDA_Results.md)
+        See Prelim EDA results [here](Docs/EDA_Results.md)
   
 #### Current status:
 - The plan is to dig further into the relationships between the unique categorical column entries and the target (admittance). For instance, how does being white/caucasian affect the admittance rate? This will also live in the Prelim EDA notebook under 1.8 Miscellaneous Insights so that I don't need to start another notebook.
