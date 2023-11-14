@@ -37,7 +37,8 @@ I aim to leverage machine learning models to evaluate the likelihood of hospital
     - 1.5: Disposition vs Hospital Usage
     - 1.6: Disposition vs Chief Complaint
     - 1.7: Disposition vs Prior Medical History
-    - 1.8: Miscellaneous Insights
+    - 1.8: Disposition vs Medications
+    - 1.9: Disposition vs Median Glucose Reading
 - Conclusion
 
 ### Completed:
