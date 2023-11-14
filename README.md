@@ -27,7 +27,7 @@ I aim to leverage machine learning models to evaluate the likelihood of hospital
     - 1.7: Categorizing Columns
 - Conclusion
 
-###### [Notebook #2: Preliminary EDA (In Progress)](Notebooks/Pt1-PrelimEDA.ipynb)
+###### [Notebook #2: EDA](Notebooks/Pt1-EDA.ipynb)
 (Table of Contents in the notebook)
 - Part 1: Preliminary EDA
     - 1.1: Housekeeping
