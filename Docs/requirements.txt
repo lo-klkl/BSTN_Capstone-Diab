@@ -1,0 +1,55 @@
+Setting up the Python Environment
+
+To recreate the Python environment used for this project, follow these steps:
+
+1. Clone this repository: https://github.com/lo-klkl/BSTN_Capstone-HC-Bias
+
+2. Navigate to the project directory:
+  cd BSTN_Capstone-HC-Bias
+
+3. Create a virtual environment:
+  virtualenv klo-BS_HS-Bia
+
+4. Activate the virtual environment:
+
+- On macOS and Linux:
+  ```
+  source klo-BS_HS-Bias/bin/activate
+  ```
+
+- On Windows:
+  ```
+  klo-BS_HS-Bia\Scripts\activate
+  ```
+
+5. Install project libraries shown below:
+
+For my project, I will be using the following libraries, here's a rough description of what they are and how to install them:
+
+Python: version 3.11.5
+
+NumPy: For numerical computations, handling arrays, and basic mathematical operations.
+Install with: pip install numpy
+
+Pandas: For data manipulation and analysis, including data reading, cleaning, and transformation.
+Install with: pip install pandas
+
+Matplotlib: For creating static, interactive, and animated visualizations in Python.
+Install with: pip install matplotlib
+
+Seaborn: A high-level interface to Matplotlib for creating informative and attractive statistical graphics.
+Install with: pip install seaborn
+
+Statsmodels: For estimating and interpreting models for statistical analysis.
+Install with: pip install statsmodels
+
+Jupyter: Jupyter is a great tool for creating and sharing documents that contain live code, equations, visualizations, and narrative text for data analysis or machine learning.
+Install with: pip install jupyter
+
+scikit-learn: For working on machine learning projects, scikit-learn is a versatile machine learning library that provides various algorithms for classification, regression, clustering, and more.
+Install with: pip install scikit-learn
+
+Plotly: Creating interactive and expressive data visualizations in Python. 
+Install with: pip install plotly
+
+
