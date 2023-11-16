@@ -380,41 +380,45 @@ EDA Results
 
 
 ###<a id = 'meds'></a> Medication Categories and Admission Rates Analysis:
+#### Percentage Distribution for `meds_antihyperglycemics`:
+- **no_antihyperglycemics (73.17%):** A significant portion of the population in the dataset is not prescribed antihyperglycemic medications.
+- **1-to-2_antihyperglycemics (22.28%):** A substantial percentage is prescribed a moderate number (1 to 2) of antihyperglycemic medications.
+- **3-to-6_antihyperglycemics (4.55%):** A smaller percentage is prescribed a higher number (3 to 6) of antihyperglycemic medications.
+- **7-plus_antihyperglycemics (0.00%):** Almost negligible percentage is prescribed seven or more antihyperglycemic medications.
 
-#### Antihyperglycemics (`meds_antihyperglycemics`):
-  - **Prescription Rate:**
-    - Highest Population Occurrence: 73.14%
-    - Lowest Population Occurrence: 0.09%  
-  - **Admission Rates:**
-    - Highest Admission Rate: 23.40%
-    - Lowest Admission Rate: 0.09%
-  - **Disparities:**
-    - Higher admission rate for the highest population occurrence (73.14%) and much lower admission rate for the lowest population occurrence (0.09%).
+#### Percentage Admission for `meds_antihyperglycemics`:
+- **1-to-2_antihyperglycemics (18.50%):** Among those prescribed 1 to 2 antihyperglycemic medications, a notable percentage is admitted.
+- **3-to-6_antihyperglycemics (4.07%):** Among those prescribed 3 to 6 antihyperglycemic medications, a smaller percentage is admitted.
+- **7-plus_antihyperglycemics (0.00%):** No admissions are reported for those prescribed seven or more antihyperglycemic medications.
+- **no_antihyperglycemics (23.39%):** Among those not prescribed antihyperglycemics, a significant percentage is admitted.
 
-#### Anti-obesity Drugs (`meds_anti-obesitydrugs`):
-  - **Prescription Rate:**
-    - Highest Population Occurrence: 99.97%
-    - Lowest Population Occurrence: 0.03%
-  - **Admission Rates:**
-    - Highest Admission Rate: 45.99%
-    - Lowest Admission Rate: 0.02%
-  - **Disparities:**
-    - Higher admission rate for the highest population occurrence (99.97%) and much lower admission rate for the lowest population occurrence (0.03%).
 
-#### Hormones (`meds_hormones`):
-  - **Prescription Rate:**
-    - Highest Population Occurrence: 95.04%
-    - Lowest Population Occurrence: 0.01%
-  - **Admission Rates:**
-    - Highest Admission Rate: 41.48%
-    - Lowest Admission Rate: 0.01%
-  - **Disparities:**
-    - Higher admission rate for the highest population occurrence (95.04%) and much lower admission rate for the lowest population occurrence (0.01%).
+#### Percentage Distribution for `meds_anti-obesitydrugs`:
+- **0.0 (99.97%):** The overwhelming majority of the population is not prescribed anti-obesity drugs.
+- **1.0 (0.03%):** A very small percentage is prescribed anti-obesity drugs.
+
+
+#### Percentage Admission for `meds_anti-obesitydrugs`:
+- **0.0 (45.95%):** Among those not prescribed anti-obesity drugs, a significant percentage is admitted.
+- **1.0 (0.02%):** A very small percentage of those prescribed anti-obesity drugs is admitted.
+
+
+#### Percentage Distribution for `meds_hormones`:
+- **no_hormones (95.04%):** The majority of the population is not prescribed hormones.
+- **1-to-2_hormones (4.91%):** A smaller percentage is prescribed a moderate number (1 to 2) of hormones.
+- **3-plus_hormones (0.05%):** A very small percentage is prescribed three or more hormones.
+
+#### Percentage Admission for `meds_hormones`:
+- **1-to-2_hormones (4.47%):** Among those prescribed 1 to 2 hormones, a small percentage is admitted.
+- **3-plus_hormones (0.04%):** A very small percentage of those prescribed three or more hormones is admitted.
+- **no_hormones (41.45%):** Among those not prescribed hormones, a significant percentage is admitted.
+
 
 #### Interpretation of Chi-Square Test: 
 - For `meds_antihyperglycemics`, the high chi-square value (22847.47) and low p-value (0.00) suggest a strong association.
 - For `meds_anti-obesitydrugs`, the chi-square value (3.35) is higher, and the p-value (0.07) is slightly above the significance threshold of 0.05.
 - For `meds_hormones`, the high chi-square value (4514.10) and low p-value (0.00) suggest a strong association.
+
 
 ---
 
