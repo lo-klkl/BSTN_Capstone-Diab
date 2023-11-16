@@ -99,6 +99,7 @@ EDA Results
 
 **Disparities:**
 - Disparity: Higher admission rate for Category 2 compared to the highest population occurrence (Category 2), and much lower admission rate for Category 5 compared to the lowest population occurrence.
+  **I'm keeping this analysis here for reference, but in my notebooks, I have removed this column to prevent leakage. 
 
 #### Triage Category - Arrival Month:
 - **Highest Population Occurrence:** May (10.34%)
