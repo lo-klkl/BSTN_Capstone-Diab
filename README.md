@@ -3,7 +3,9 @@ Kristen L
 
 #### Purpose: 
 
-I aim to leverage machine learning models to evaluate the likelihood of hospital admission based on an individual's medical history and demographic data. My primary objective is to shed light on the glaring issue of healthcare inequity at a systemic level. The first step in fixing a problem is acknowledging that there is one. The primary aim of this project is to identify if any biases exist in the healthcare outcome of patients based on demographic data while accounting for past medical history and reason for visits to the ER. By harnessing the power of data, I aspire to ensure that every patient has the opportunity for the best possible outcome.
+I aim to leverage machine learning models to evaluate the likelihood of hospital admission of diabetic patients My primary objective is to shed light on the glaring issue of healthcare inequity at a systemic level. The first step in fixing a problem is acknowledging that there is one. I plan to create a discrimination test to evaluate if the raw data being fed into the models contains biased information which could worsen or create new forms of disparities, removing this biased information, and then using that data for modeling. 
+
+By harnessing the power of data, I aspire to ensure that every patient has the opportunity for the best possible outcome.
 
 #### Information about Data: 
 - [Data Dictionary](Docs/Data_Dictionary_for_Capstone-Final.pdf): This contains the data dictionary for the final clean data set that was used for analysis.
