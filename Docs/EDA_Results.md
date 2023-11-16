@@ -379,7 +379,7 @@ EDA Results
 - The statistical significance of these associations is confirmed by the very low p-values, further supporting the reliability of the observed relationships between these medical conditions and the dataset.
 
 
-###<a id = 'meds'></a> Medication Categories and Admission Rates Analysis:
+### <a id = 'meds'></a> Medication Categories and Admission Rates Analysis:
 #### Percentage Distribution for `meds_antihyperglycemics`:
 - **no_antihyperglycemics (73.17%):** A significant portion of the population in the dataset is not prescribed antihyperglycemic medications.
 - **1-to-2_antihyperglycemics (22.28%):** A substantial percentage is prescribed a moderate number (1 to 2) of antihyperglycemic medications.
