@@ -13,7 +13,7 @@ By harnessing the power of data, I aspire to ensure that every patient has the o
 - [EDA results](Docs/EDA_Results.md): This contains the results from the EDA done on the data. Mostly looking into distribution and the general effect on the outcome.
 
 #### Creating the environment 
-- Follow the guide in the requirements [here](Docs/requirements.txt)
+- Follow the guide in the requirements [here](Docs/requirements.txt) to create the appropriate environment as well as install all necessary libraries. 
 
 #### Notebooks
 
@@ -77,6 +77,8 @@ Courtesy of:
  "Hong WS, Haimovich AD, Taylor RA (2018) Predicting hospital admission at emergency department triage using machine learning. PLoS ONE 13(7): e0201016." (https://doi.org/10.1371/journal.pone.0201016)
 
  The dataset is also available on [github here](https://github.com/yaleemmlc/admissionprediction)
+
+Raza, S. (2022)“A Machine Learning Model for Predicting, Diagnosing, and Mitigating Health Disparities in Hospital Readmission.” Healthcare Analytics, Elsevier, (www.sciencedirect.com/science/article/pii/S2772442522000430)
 
 #### Other files
 - [Sprint 1 project presentation](Docs/KristenLo_Sprint1_Presentation.pdf)
