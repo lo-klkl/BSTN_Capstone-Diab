@@ -20,8 +20,8 @@ _____
     - The purpose of this notebook is to sort, clean, and create a clean CSV file to do further analysis and modeling on. 
 - [Notebook #2: EDA](Notebooks/Pt1-EDA.ipynb): 
     - The purpose of this notebook is to do a baseline Exploratory Data Analysis (EDA) to understand the data that lives within the columns and their relationship to the target column. Some feature engineering will be done as we analyze the `Chief Complaint` and `Prior Medical History` columns. After performing a phi-coefficient score with their respective p-values, those that do not meet the 0.05 threshold will be removed from the dataset. 
-- [Notebook #3: Pre-processing](Notebooks/Pt2- Preprocessing.ipynb)
-    - The purpose of this notebook is to pre-process the data and ready it for modeling. At the end, all of the columns will be binary and dummy columns will be created.
+- [Notebook #3: Pre-processing](Notebooks/Pt2-Preprocessing.ipynb): 
+    - The purpose of this notebook is to pre-process the data and ready it for modeling. In the end, all of the columns will be binary and dummy columns will be created. [Here](Docs/Dummy_Ref.md) is a guide to understanding the dummy columns that were dropped to avoid multicollinearity and to be used as a reference. 
 ______
 ### Completed:
 - Cleaning the data (see clean notebook for more details) 
