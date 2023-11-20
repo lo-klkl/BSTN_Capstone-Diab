@@ -16,53 +16,28 @@ By harnessing the power of data, I aspire to ensure that every patient has the o
 - Follow the guide in the requirements [here](Docs/requirements.txt) to create the appropriate environment as well as install all necessary libraries. 
 
 #### Notebooks
-
-###### [Notebook #1: Part 0 Data cleaning](Notebooks/Pt0-Clean.ipynb) 
-(Table of Contents in the notebook)
-- Part 0: Cleaning the Data
-    - 1.1: Housekeeping
-    - 1.2: Deleting Columns
-    - 1.3: Deleting Rows
-    - 1.4: Handling Duplicates
-    - 1.5: Data Type Conversion
-    - 1.6: Handling Missing Data
-    - 1.7: Categorizing Columns
-- Conclusion
-
-###### [Notebook #2: EDA](Notebooks/Pt1-EDA.ipynb)
-(Table of Contents in the notebook)
-- Part 1: Preliminary EDA
-    - 1.1: Housekeeping
-    - 1.2: Disposition vs Demographic
-    - 1.3: Disposition vs Triage Categorical Variables
-    - 1.4: Disposition vs Triage Numerical Variables
-    - 1.5: Disposition vs Hospital Usage
-    - 1.6: Disposition vs Chief Complaint
-    - 1.7: Disposition vs Prior Medical History
-    - 1.8: Disposition vs Medications
-    - 1.9: Disposition vs Median Glucose Reading
-- Conclusion
+- [Notebook #1: Part 0 Data cleaning](Notebooks/Pt0-Clean.ipynb) 
+    - The purpose of this notebook is to sort, clean, and create a clean CSV file to do further analysis and modeling on. 
+- [Notebook #2: EDA](Notebooks/Pt1-EDA.ipynb): 
+    - The purpose of this notebook is to do a baseline Exploratory Data Analysis (EDA) to understand the data that lives within the columns and their relationship to the target column. Some feature engineering will be done as we analyze the `Chief Complaint` and `Prior Medical History` columns. After performing a phi-coefficient score with their respective p-values, those that do not meet the 0.05 threshold will be removed from the dataset. 
+- [Notebook #3: Pre-processing](Notebooks/Pt2- Preprocessing.ipynb)
+    - The purpose of this notebook is to pre-process the data and ready it for modeling. At the end, all of the columns will be binary and dummy columns will be created.
 
 ### Completed:
 - Cleaning the data (see clean notebook for more details) 
 - Changing numerical columns to categorical columns to make interpretation and EDA easier and also setting up for dummying these columns down the road. 
-- Prelim EDA, understanding the data in the columns, how columns relate to the target, and their significance in relation to the target. 
-        See Prelim EDA results [here](Docs/EDA_Results.md)
+- Exploratory Data Analysis (EDA), understanding the data in the columns, how columns relate to the target, and their significance in relation to the target. 
+        See EDA results [here](Docs/EDA_Results.md)
   
 #### Current status:
-- The plan is to dig further into the relationships between the unique categorical column entries and the target (admittance). For instance, how does being white/caucasian affect the admittance rate? This will also live in the Prelim EDA notebook under 1.8 Miscellaneous Insights so that I don't need to start another notebook.
-- To accomplish this, the various categorical columns would need to be dummied, which is good as preparation for modeling to complete one-hot encoding. I plan to drop the column with the most instances as this would be the reference column for all of my dummy columns.
-  
-
-### Future Plans: 
-- Feature selection and Dimensionality reduction. After dummying the categorical columns, I anticipate the total columns to be about 600-700. This is necessary so that the most relevant features can be kept and the less informative ones discarded. This will help with improving model performance, reducing overfitting, and speeding up the training process.
+- Feature selection and Dimensionality reduction. This is necessary to keep the most relevant features and the least informative ones discarded. This will help with improving model performance, reducing overfitting, and speeding up the training process.
     -  I plan to start with Recursive Feature Elimination (RFE) to perform an initial feature selection and reduce the feature space to a manageable size.
     -  I was already going to use a logistic model as my base model. Applying L1 regularization within a logistic regression model to further refine the feature set and promote sparsity in the coefficients. This can help select the most informative features while also allowing for easy interpretation.
       
 - Modelling:
     - The baseline model that I plan to use is a logistic regression. I plan to also use this with the Lasso regularization to see how I can base optimize my model
     - I plan to also try other models to see which performs the best:
-      - Random forest: Random Forest can handle datasets with a large number of features, making it a good choice for so many binary features. It can capture complex relationships between features and the target variable. Random Forest provides feature importance scores, which can help identify which binary features are the most informative.
+      - Random forest: Random Forest can handle datasets with many features, making it a good choice for so many binary features. It can capture complex relationships between features and the target variable. Random Forest provides feature importance scores, which can help identify which binary features are the most informative.
       - Gradient Boosting (xGBoost): an ensemble technique that builds decision trees sequentially, with each tree correcting the errors of the previous one. Gradient Boosting models are known for their high predictive power. Can also be used for feature importance scores. Regularization techniques can also be used to prevent overfitting.
       - Support Vector Machines (SVM): great choice for binary classification and can be used in high-dimensional data sets with many features.
     - After seeing which model runs the best, I will then make sure to check for various hyperparameters to further optimize the model.
