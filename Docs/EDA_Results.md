@@ -426,15 +426,21 @@ EDA Results
 ### <a id = 'glu'></a> Glucose Level History and Admission Rates:
 #### `hist_glucose_median`:
   - **Percentage Distribution:**
-    - Normal: 77.01%
-    - .>200 (high): 15.81%
-    - .>300 (very high): 7.17%
+    - Normal: 43.6%
+    - No reading: 37.03
+    - .>200 (high): 12.17
+    - .>300 (very high): 7.19%
   - **Admission Rates:**
-    - .>200 (high): 7.03%
+    - .>200 (high): 6.38.03%
     - .>300 (very high): 3.45%
-    - Normal: 35.53%
+    - No reading: 14.54
+    - Normal: 21.58%
   - **Disparities:**
     - Higher admission rate for >200 (high) glucose level (15.81%) and >300 (very high) glucose level (7.17%), and much lower admission rate for Normal glucose level (77.01%).
+
+#### Interpretation of Chi-Square Test: 
+- For `hist_glucose_median`, the chi-square value (31.41) is higher, and the p-value (1.51e-07) is much below the significance threshold of 0.05.
+
 
 #### Interpretation of Chi-Square Test: 
 - For `hist_glucose_median`, the chi-square value (31.41) is higher, and the p-value (1.51e-07) is much below the significance threshold of 0.05.
