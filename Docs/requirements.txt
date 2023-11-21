@@ -49,6 +49,9 @@ Install with: pip install jupyter
 scikit-learn: For working on machine learning projects, scikit-learn is a versatile machine learning library that provides various algorithms for classification, regression, clustering, and more.
 Install with: pip install scikit-learn
 
+aif360: The AI Fairness 360 toolkit is an extensible open-source library containing techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle.
+Install with: pip install aif360
+
 Plotly: Creating interactive and expressive data visualizations in Python. 
 Install with: pip install plotly
 
