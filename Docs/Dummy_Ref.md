@@ -9,8 +9,8 @@ After dummying columns in the [Pre-processing notebook](Notebooks/Pt2- Preproces
 
 ### Triage Numerical Data 
 - For 'dum_triage_vital__normal_hr' with the most instances for 'triage_vital_hr' was dropped.
-- For 'dum_triage_vital__hypertension(high)_sbp' with the most instances for 'triage_vital_sbp' was dropped.
-- For 'dum_triage_vital__normal_dbp' with the most instances for 'triage_vital_dbp' was dropped.
+- For 'dum_triage_vital__no_sbp_recorded' with the most instances for 'triage_vital_sbp' was dropped.
+- For 'dum_triage_vital__no_dbp_recorded' with the most instances for 'triage_vital_dbp' was dropped.
 - For 'dum_triage_vital__normal_rr' with the most instances for 'triage_vital_rr' was dropped.
 - For 'dum_triage_vital__normal_temp' with the most instances for 'triage_vital_temp' was dropped.
 
