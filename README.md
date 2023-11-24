@@ -9,7 +9,7 @@ I plan to create a discrimination test to evaluate if the raw data being fed int
 
 By harnessing the power of data, I aspire to ensure that every patient has the opportunity for the best possible outcome.
 
-Ideally, we would be following the pipeline as set out by Raza as shown here:
+Ideally, we would be following the pipeline as set out by [Raza](www.sciencedirect.com/science/article/pii/S2772442522000430) as shown here:
 
 ![image](https://ars.els-cdn.com/content/image/1-s2.0-S2772442522000430-gr1.jpg)
 _____
@@ -51,7 +51,7 @@ Courtesy of:
 
  The dataset is also available on [github here](https://github.com/yaleemmlc/admissionprediction)
 
-Raza, S. (2022)“A Machine Learning Model for Predicting, Diagnosing, and Mitigating Health Disparities in Hospital Readmission.” Healthcare Analytics, Elsevier, (www.sciencedirect.com/science/article/pii/S2772442522000430)
+[Raza, S. (2022)“A Machine Learning Model for Predicting, Diagnosing, and Mitigating Health Disparities in Hospital Readmission.” Healthcare Analytics, Elsevier](www.sciencedirect.com/science/article/pii/S2772442522000430)
 ______
 #### Other files
 - [Sprint 1 project presentation](Docs/KristenLo_Sprint1_Presentation.pdf)
