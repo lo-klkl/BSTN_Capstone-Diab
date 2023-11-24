@@ -49,13 +49,31 @@ Install with: pip install jupyter
 scikit-learn: For working on machine learning projects, scikit-learn is a versatile machine learning library that provides various algorithms for classification, regression, clustering, and more.
 Install with: pip install scikit-learn
 
-aif360: The AI Fairness 360 toolkit is an extensible open-source library containing techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle.
-Install with: pip install aif360
-
-imbalanced:is designed to address the issue of imbalanced class distributions in machine learning datasets by providing various techniques for oversampling, undersampling, and generating synthetic samples, enabling better model performance on minority classes in classification tasks.
+imbalanced: is designed to address the issue of imbalanced class distributions in machine learning datasets by providing various techniques for oversampling, undersampling, and generating synthetic samples, enabling better model performance on minority classes in classification tasks.
 Install with: pip install -U imbalanced-learn
+
+xGboost:  XGBoost is based on the gradient boosting framework, which builds a series of weak learners sequentially, with each new learner trying to correct the errors made by the previous ones.
+Install with: pip install xgboost
+
+Time: provides various time-related functions, allowing you to work with time values, measure time intervals, and format time
+Install with: pip install time
+
+Joblib:  used for lightweight pipelining in Python
+install with: pip install joblib
+
+Json: provides methods for working with JSON (JavaScript Object Notation) data.
+install with: pip install json
+
+Shap: (SHapley Additive exPlanations) library is used for interpreting the output of machine learning models
+install with: pip install shap
+
+Scipy.Stats: part of the SciPy library, provides a wide range of statistical functions and tests
+install with: pip install scipy
 
 Plotly: Creating interactive and expressive data visualizations in Python. 
 Install with: pip install plotly
+
+aif360: The AI Fairness 360 toolkit is an extensible open-source library containing techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle.
+Install with: pip install aif360
 
 
